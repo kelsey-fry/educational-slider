@@ -1,0 +1,18 @@
+iframe{
+	/* width: 100%; */
+	width: 100% !important;
+	height: 533px;
+	overflow: hidden;
+	}
+	
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+} 
+
+.slickQuiz{
+	width: 100%;
+	}
