@@ -16,6 +16,7 @@
 
 .bx-wrapper {
 	position: relative;
+	max-width: auto;
 	margin: 0 auto 60px;
 	padding: 0;
 	*zoom: 1;
@@ -43,6 +44,11 @@
     	-ms-transform: translatez(0);
     	-o-transform: translatez(0);
     	transform: translatez(0);
+}
+
+.bx-viewport ul {
+  margin: 0;
+  padding: 0;
 }
 
 .bx-wrapper .bx-pager,
