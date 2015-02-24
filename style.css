@@ -1,3 +1,16 @@
+#background {
+	background: aliceblue;
+}
+
+header {
+	background: aliceblue;
+	color: slategray;
+	font-family: garamond;
+	font-size: 300%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
 iframe{
 	/* width: 100%; */
 	width: 100% !important;
@@ -16,3 +29,25 @@ iframe[seamless] {
 .slickQuiz{
 	width: 100%;
 	}
+	
+#zoom {
+	display:inline;
+	position: absolute;
+	float:left;
+	margin-left: -70px;
+	margin-top: 400px;
+}
+
+li #zoom {
+	display:inline;
+	position: absolute;
+	float:left;
+	margin-left: -70px;
+	margin-top: 400px;
+}
+
+/*#slide6 {
+	background-image: url("images/3.jpg");
+	height: 667px;
+}
+*/
